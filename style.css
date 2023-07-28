@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Inconsolata:wght@500&display=swap');
+
+* {
+    font-family: 'Handjet', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    margin: 0;
+    padding: 0;
+    background-image: url('wall.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Handjet', cursive;
+    background-color:rgba(0, 0, 0, 0.637);
+    
+  }
+  .head {
+    font-size: 500%;
+    font-family: 'Handjet', cursive;
+    color: #E8E8E8;
+  }
+ 
+  .start-screen,
+  .score-container {
+    font-family: 'Handjet', cursive;
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    font-family: 'Handjet', cursive;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  #start-button,
+  #restart {
+    font-family: 'Handjet', cursive;
+    font-size: 1.3em;
+    padding: 0.5em 1.8em;
+    border-radius: 0.2em;
+   
+  }
+  #restart {
+    font-family: 'Handjet', cursive;
+    margin-top: 0.9em;
+  }
+  #display-container {
+    font-family: 'Inconsolata', monospace;
+    
+    background-color: #ffffffa6;
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+  }
+  .header {
+    font-family: 'Handjet', cursive;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.6em;
+    border-bottom: 0.1em solid #c0bfd2;
+  }
+  .timer-div {
+    font-family: 'Handjet', cursive;
+    background-color: #e1f5feb4;
+    width: 7.5em;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 1.8em;
+  }
+  .question {
+    font-family: 'Inconsolata', monospace;
+   font-size: 0.45cm;
+    margin-bottom: 1.25em;
+    font-weight: 600;
+  }
+  .option-div {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid #c0bfd2;
+    border-radius: 0.3em;
+  }
+  .option-div:disabled {
+    font-family: 'Inconsolata', monospace;
+    
+    color: #000000;
+    cursor: not-allowed;
+  }
+  #next-button {
+    font-family: 'Handjet', cursive;
+    font-size: 1em;
+    margin-top: 1.9em;
+    background-color: #0aed5975;
+    color: black;
+    font-weight: bold;
+    padding: 0.7em 1.8em;
+    border-radius: 0.3em;
+    float: right;
+  }
+  .hide {
+    font-family: 'Inconsolata', monospace;
+    display: none;
+  }
+  .incorrect {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffdde0;
+    color: #d32f2f;
+    border-color: #d32f2f;
+  }
+  .correct {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    background-color: #e7f6d5;
+    color: #689f38;
+    border-color: #689f38;
+  }
+  #user-score {
+    font-family: 'Handjet', cursive;
+    font-size: 2em;
+    color: #ffffff;
+  }
+  .bottom {
+    margin-top: 600px;
+    text-align: bottom;
+    color: white;
+    font-size: 10px;
+}
+a {
+    font-size: 12px;
+    color: white; 
+    text-decoration: none; 
+  }
+
+
+  a:visited {
+    color: white ;
+  }
